@@ -1,4 +1,4 @@
-# before you install python 2.7 in centos, check https/zlib support
+# before you install python 2.7 in centos 5.*, first check https/zlib support
 #
 # 1. Compression requires the (missing) zlib module
 # > yum -y install zlib zlib-devel
