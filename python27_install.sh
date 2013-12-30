@@ -1,3 +1,11 @@
+# before you install python 2.7 in centos, check https/zlib support
+#
+# 1. Compression requires the (missing) zlib module
+# > yum -y install zlib zlib-devel
+# 2. unknown url type: https -- Some packages may not be found!
+# > yum -y install openssl openssl-devel 
+# 
+
 # 1. install python
 wget http://www.python.org/ftp/python/2.7.5/Python-2.7.5.tgz -P /opt
 cd /opt
