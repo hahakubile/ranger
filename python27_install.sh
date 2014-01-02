@@ -4,6 +4,8 @@
 # > yum -y install zlib zlib-devel
 # 2. unknown url type: https -- Some packages may not be found!
 # > yum -y install openssl openssl-devel 
+# 3. python -c "import bz2; print bz2.__doc__" ==> CompressionError: bz2 module is not available
+# > yum -y install bzip2 bzip2-devel
 # 
 
 # 1. install python
