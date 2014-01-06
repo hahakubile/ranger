@@ -31,6 +31,7 @@ change #!/usr/bin/python to #!/usr/bin/python2.4
 # 2. install setuptools
 wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz -P /opt/
 tar zxvf setuptools-0.6c11.tar.gz
+cd setuptools-0.6c11
 python setup.py install
  
 # 3. install pip
