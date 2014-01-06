@@ -26,7 +26,6 @@ python
 
 # restore yum
 vim /usr/bin/yum
-
 change #!/usr/bin/python to #!/usr/bin/python2.4
 
 # 2. install setuptools
