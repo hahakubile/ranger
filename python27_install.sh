@@ -27,7 +27,7 @@ python
 # restore yum
 vim /usr/bin/yum
 
-change <code>#!/usr/bin/python</code> to <code>#!/usr/bin/python2.4</code>
+change #!/usr/bin/python to #!/usr/bin/python2.4
 
 # 2. install setuptools
 wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz -P /opt/
