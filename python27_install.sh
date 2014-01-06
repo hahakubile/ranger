@@ -12,6 +12,7 @@
 wget http://www.python.org/ftp/python/2.7.5/Python-2.7.5.tgz -P /opt
 cd /opt
 tar xvf Python-2.7.5.tgz
+cd Python-2.7.5
 ./configure --prefix=/usr/local
 # make altinstall is used to prevent replacing the default python binary file /usr/bin/python
 make && make altinstall
@@ -22,6 +23,11 @@ ln -s /usr/local/bin/python2.7 /usr/bin/python
 
 # test install
 python
+
+# restore yum
+vim /usr/bin/yum
+
+change <code>#!/usr/bin/python</code> to <code>#!/usr/bin/python2.4</code>
 
 # 2. install setuptools
 wget http://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz -P /opt/
