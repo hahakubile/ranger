@@ -51,3 +51,9 @@ curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py | python2.7 -
 
 # 4. install virtualenv
 pip install virtualenv
+
+# 5. make pip downloading fast
+vim ~/.pip/pip.conf
+
+[global]
+index-url = http://pypi.douban.com/simple
