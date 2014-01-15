@@ -13,4 +13,4 @@ yum -y install libxml2 libxml2-devel libxslt libxslt-devel
 
 # 3. scrapy
 
-pip install scrapy
+pip install Scrapy==0.16.4
